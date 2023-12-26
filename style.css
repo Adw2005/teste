@@ -1,0 +1,793 @@
+*
+{
+    margin: 0;
+    left: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(29, 29, 29);
+    backdrop-filter: blur(100px);
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imagens/gtz.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 10px;
+    transition: .2s;
+}
+header ul li a:hover,
+header ul li a.active{
+    background: white;
+    color: black;
+}
+.text{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+.content{
+    max-width: 400px;
+}
+.content h1{
+    font-size: 6em;
+    letter-spacing: 8px;
+    font-weight: 700;
+    color: white;
+}
+.btn-box a{
+    padding: 15px 37px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .2s;
+
+}
+.btn-box a:hover{
+    background: rgba(161, 161, 161, 0.384);
+    color: white;
+    border: 1px solid rgba(126, 126, 126, 0.384);
+    z-index: 2;
+}
+.btn-box .b1{
+    position: absolute;
+    bottom: -15%;
+}
+.linha{
+    color: white;
+}
+.titulo{
+    position: absolute;
+    left: 43%;
+    bottom: -100px;
+    
+}
+.titulo h1{
+    color: white;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+.produto{
+    position: absolute;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    bottom: -80%;
+    left: 5%;
+}
+.produto2{
+    position: absolute;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    bottom: -10%;
+    left: 120%;
+}
+.produto3{
+    position: absolute;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    bottom: -10%;
+    left: 120%;
+}
+.produto4{
+    position: absolute;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    bottom: -140%;
+    left: -120%;
+}
+.produto5{
+    position: absolute;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    bottom: -10%;
+    left: 120%;
+}
+.produto6{
+    position: absolute;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    bottom: -10%;
+    left: -241%;
+}
+.btn-box4 .b5{
+    position: absolute;
+    bottom: 3%;
+    left: 70%;
+    padding: 15px 37px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .2s;
+}
+.btn-box4 .b5:hover{
+    background: rgba(161, 161, 161, 0.384);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    z-index: 100;
+}
+.btn-box5 .b6{
+    position: absolute;
+    bottom: 3%;
+    left: 70%;
+    padding: 15px 37px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .2s;
+}
+.btn-box5 .b6:hover{
+    background: rgba(161, 161, 161, 0.384);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    z-index: 100;
+}
+.btn-box6 .b7{
+    position: absolute;
+    bottom: 3%;
+    left: 70%;
+    padding: 15px 37px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .2s;
+}
+.btn-box6 .b7:hover{
+    background: rgba(161, 161, 161, 0.384);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    z-index: 100;
+}
+.btn-box7 .b8{
+    position: absolute;
+    bottom: 3%;
+    left: 70%;
+    padding: 15px 37px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .2s;
+}
+.btn-box7 .b8:hover{
+    background: rgba(161, 161, 161, 0.384);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    z-index: 100;
+}
+.btn-box8 .b9{
+    position: absolute;
+    bottom: 3%;
+    left: 70%;
+    padding: 15px 37px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .2s;
+}
+.btn-box8 .b9:hover{
+    background: rgba(161, 161, 161, 0.384);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    z-index: 100;
+}
+.btn-box9 .b10{
+    position: absolute;
+    bottom: 3%;
+    left: 70%;
+    padding: 15px 37px;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .2s;
+}
+.btn-box9 .b10:hover{
+    background: rgba(161, 161, 161, 0.384);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    z-index: 100;
+}
+.modelo{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+    left: 2%;
+    bottom: 5%;
+}
+.linha2{
+    position: absolute;
+    bottom: 4%;
+    width: 20%;
+    left: 2%;
+
+}
+.modelo2{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+    left: 2%;
+    bottom: 5%;
+}
+.linha3{
+    position: absolute;
+    bottom: 4%;
+    width: 20%;
+    left: 2%;
+
+}
+.modelo3{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+    left: 2%;
+    bottom: 5%;
+}
+.linha4{
+    position: absolute;
+    bottom: 4%;
+    width: 20%;
+    left: 2%;
+
+}
+.sec{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to top, rgb(29, 29, 29), transparent);
+    z-index: 1000;
+}
+.modelo4{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+    left: 2%;
+    bottom: 5%;
+}
+.linha5{
+    position: absolute;
+    bottom: 4%;
+    width: 20%;
+    left: 2%;
+
+}
+.modelo5{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+    left: 2%;
+    bottom: 5%;
+}
+.linha6{
+    position: absolute;
+    bottom: 4%;
+    width: 20%;
+    left: 2%;
+
+}.modelo6{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+    left: 2%;
+    bottom: 5%;
+}
+.linha7{
+    position: absolute;
+    bottom: 4%;
+    width: 20%;
+    left: 2%;
+
+}
+.gt3-992{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.p718{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.carrera{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.taycan{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.panamera{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.cayenne{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.titulo2{
+    position: absolute;
+    left: 135%;
+    bottom: -22%;
+}
+.titulo2 h1{
+    color: white;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+.curiosidade{
+    position: absolute;
+    margin: 50px auto;
+    width: 1500px;
+    height: 661px;
+    border-radius: 10px;
+    bottom: -180%;
+    left: 20%;
+
+}
+.gt1{
+    border-radius: 10px;
+}
+.titulo3{
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    letter-spacing: 2px;
+    top: 2%;
+    left: 2%;
+    z-index: 1000;
+}
+.linha9{
+    position: absolute;
+    top: 11%;
+    left: 2%;
+    width: 20%;
+    z-index: 1000;
+}
+.sgt1{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    max-width: 900px;
+    top: 80%;
+    left: 2%;
+
+}
+.btn-box2 .b3{
+    position: absolute;
+    padding: 20px 60px;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .2s;
+    left: 85%;
+    top: 88%;
+    z-index: 1000;
+
+}
+.btn-box2 .b3:hover{
+    background: rgba(235, 232, 232, 0.37);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    z-index: 2;
+}
+.titulo4{
+    position: absolute;
+    color: white;
+    left: 2%;
+    top: 60%;
+    font-size: 5em;;
+}
+.detalhes{
+    position: absolute;
+    width: 1500px;
+    height: 661px;
+    border-radius: 10px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.26);
+}
+.rodapé{
+    position: absolute;
+    bottom: -390%;
+    left: -19%;
+    width: 381%;
+    height: 1000px;
+    background: rgb(26, 26, 26);
+}
+.lang{
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    left: 7%;
+    bottom: 90%;
+}
+.brasil{
+    position: absolute;
+    left: 7%;
+    bottom: 83.3%;
+    transition: .2s;
+}
+.pais{
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    left: 9%;
+    bottom: 84%;
+}
+.rlink{
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    left: 17%;
+    bottom: 84%;
+    transition: .2s;
+
+}
+.rlink:hover{
+    color: rgb(192, 24, 24);
+}
+.contato{
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    left: 7%;
+    bottom: 73%;
+}
+.perguntas{
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    left: 7%;
+    bottom: 68%;
+}
+.btn-box3 .b4{
+    position: absolute;
+    padding: 18px 100px;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .2s;
+    left: 7%;
+    bottom: 58%;
+
+}
+.btn-box3 .b4:hover{
+    background: rgba(255, 255, 255, 0.377);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.733);
+    z-index: 2;
+}
+.empresa{
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    left: 7%;
+    bottom: 50%;
+}
+.rlink1{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    left: 7%;
+    bottom: 45%;
+    transition: .2s;
+}
+.rlink1:hover{
+    color: rgb(192, 24, 24);
+}
+.rlink2{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    left: 7%;
+    bottom: 41%;
+    transition: .2s;
+}
+.rlink2:hover{
+    color: rgb(192, 24, 24);
+}
+.rlink3{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    left: 7%;
+    bottom: 37%;
+    transition: .2s;
+}
+.rlink3:hover{
+    color: rgb(192, 24, 24);
+}
+.social{
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+    left: 30%;
+    bottom: 73%;
+}
+.conosco{
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    left: 30%;
+    bottom: 66%;
+}
+.face{
+    position: absolute;
+    left: 30%;
+    bottom: 59%;
+    border-radius: 10px;
+    transition: .2s;
+}
+.face:hover{
+    opacity: 0.8;
+}
+.insta{
+    position: absolute;
+    left: 32%;
+    bottom: 59%;
+    border-radius: 10px;
+    transition: .2s;
+}
+.insta:hover{
+    opacity: 0.8;
+}
+.pint{
+    position: absolute;
+    left: 34%;
+    bottom: 59%;
+    border-radius: 10px;
+    transition: .2s;
+}
+.pint:hover{
+    opacity: 0.8;
+}
+.you{
+    position: absolute;
+    left: 36%;
+    bottom: 59%;
+    border-radius: 10px;
+    transition: .2s;
+}
+.you:hover{
+    opacity: 0.8;
+}
+.rlink4{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    left: 30%;
+    bottom: 45%;
+    transition: .2s;
+}
+.rlink4:hover{
+    color: rgb(192, 24, 24);
+}
+.rlink5{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    left: 30%;
+    bottom: 41%;
+    transition: .2s;
+}
+.rlink5:hover{
+    color: rgb(192, 24, 24);
+}
+.rlink6{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    left: 30%;
+    bottom: 37%;
+    transition: .2s;
+}
+.rlink6:hover{
+    color: rgb(192, 24, 24);
+}
+.rlink7{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    left: 43%;
+    bottom: 45%;
+    transition: .2s;
+}
+.rlink7:hover{
+    color: rgb(192, 24, 24);
+}
+.rlink8{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    left: 43%;
+    bottom: 41%;
+    transition: .2s;
+}
+.rlink8:hover{
+    color: rgb(192, 24, 24);
+}
+.linharp{
+    position: absolute;
+    width: 86%;
+    left: 7%;
+    bottom: 30%;
+}
+.final{
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    left: 7%;
+    bottom: 23%;
+}
+.il{
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+.il:hover{
+    color: rgb(192, 24, 24);
+}
+.il{
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+.il:hover{
+    color: rgb(192, 24, 24);
+}
+.pp{
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+.pp:hover{
+    color: rgb(192, 24, 24);
+}
+.cd{
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+.cd:hover{
+    color: rgb(192, 24, 24);
+}
+.osn{
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+.osn:hover{
+    color: rgb(192, 24, 24);
+}
+.info{
+    position: absolute;
+    color: white;
+    font-size: 1em;
+    left: 7%;
+    bottom: 16%;
+    max-width: 84%;
+}
+.porsche{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    left: 42%;
+    bottom: 5%;
+}
+.linhap{
+    position: absolute;
+    width: 9%;
+    left: 42%;
+    bottom: 4%;
+}
+
+
+
+
